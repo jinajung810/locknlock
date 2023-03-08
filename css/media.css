@@ -1,0 +1,217 @@
+@media screen and (max-width:1023px ) {
+    #header h1 {position: absolute;left: 5rem;top: 50%;transform: translateY(-50%);}
+    #header h1 + a {position: absolute;right:8.75rem;top:50%;transform: translateY(-50%);}
+    #bars {position: absolute;right: 5rem;top: 2.188rem;z-index: 100;}
+    #siteMap .gnb {padding-top: 6rem;}
+    #siteMap .gnb li:nth-child(1) ul {right: 10%;top: -25%;}
+    #siteMap .gnb li:nth-child(1) ul::before {
+        content: "";display: block; 
+        width: 4rem;height: 1px; background: #000;
+        position: absolute;left: 8%;top: 50%; 
+    }
+    #siteMap .gnb li:nth-child(1):hover ul::before {
+        animation: menuLine1 0.5s ease-in-out;
+    }
+    @keyframes menuLine1 {
+        0% {width: 0;}
+        100% {width: 4rem;}
+    }
+    #siteMap .gnb li:nth-child(2) ul {left: 0%;top: -30%;}
+    #siteMap .gnb li:nth-child(2) ul::after {
+        content: "";display: block; 
+        width: 4rem ;height: 1px; background: #000;
+        position: absolute;right: -10%;top: 50%;
+    }
+    #siteMap .gnb li:nth-child(2):hover ul::after {
+        animation: menuLine2 0.5s ease-in-out;
+    }
+    @keyframes menuLine2 {
+        0% {width: 0;}
+        100% {width: 4rem}
+    }
+    #siteMap .gnb li:nth-child(3) ul {right: 0%;top: 20%;}
+    #siteMap .gnb li:nth-child(3) ul::before {
+        content: "";display: block; 
+        width: 3rem;height: 1px; background: #000;
+        position: absolute;left: -2%;top: 50%;
+    }
+    #siteMap .gnb li:nth-child(3):hover ul::before {
+        animation: menuLine3 0.5s ease-in-out;
+    }
+    @keyframes menuLine3 {
+        0% {width: 0;}
+        100% {width: 3rem;}
+    }
+    #siteMap .gnb li:nth-child(4) ul {left: 0%;top: -10%;}
+    #siteMap .gnb li:nth-child(4) ul::after {
+        content: "";display: block; 
+        width: 9rem;height: 1px; background: #000;
+        position: absolute;right: -30%;top: 50%;
+    }
+    #siteMap .gnb li:nth-child(4):hover ul::after {
+        animation: menuLine4 0.5s ease-in-out;
+    }
+    @keyframes menuLine4 {
+        0% {width: 0;}
+        100% {width: 9rem;}
+    }
+    #siteMap .gnb li:nth-child(5) ul {right: 0%;top: -10%;}
+    #siteMap .gnb li:nth-child(5) ul::before {
+        content: "";display: block; 
+        width: 11rem;height: 1px; background: #000;
+        position: absolute;left: -35%;top: 50%;
+    }
+    #siteMap .gnb li:nth-child(5):hover ul::before {
+        animation: menuLine5 0.5s ease-in-out;
+    }
+    @keyframes menuLine5 {
+        0% {width: 0;}
+        100% {width: 11rem;}
+    }
+    #siteMap .gnb li:nth-child(6) ul {left: 0%;top: 10%;}
+    #siteMap .gnb li:nth-child(6) ul::after {
+        content: "";display: block; 
+        width: 8rem;height: 1px; background: #000;
+        position: absolute;right: -25%;top: 50%;
+    }
+    #siteMap .gnb li:nth-child(6):hover ul::after {
+        animation: menuLine6 0.5s ease-in-out;
+    }
+    @keyframes menuLine6 {
+        0% {width: 0;}
+        100% {width: 8rem;}
+    }
+    /* header */
+
+    #visual .swiper-slide h2 {
+        position: absolute; left: 50%; 
+        top: 50%;transform: translate(-50%,-50%);
+        font-size:4.063rem;font-weight: 200;color:#fff;
+    }
+    /* visual */
+
+    .foodContainer .left {
+        background-image: none;
+        top: 0;
+        text-align: center;
+        width: 100%;padding-left: 0;
+    }
+    .foodContainer .left h2 { font-size:4.063rem;margin-top: 7.375rem;}
+    .foodContainer .left strong {font-size: 1.875rem;}
+    .foodContainer .left p {display: none;}
+    .foodContainer .right { width: 37.5rem;top: 35%;right: 30%;}
+    /* con1 */
+
+    .tumbler h2 {font-size:4.063rem;}
+    .tumbler strong {font-size: 1.875rem;}
+    .tumbler p {display: none;}
+    .tumbler .left ul li:first-child {font-size: 1.9550vw}
+    .tumbler .left ul.metro li:nth-child(2) {left:8.7977vw;}
+    .tumbler .left ul.Swing li:nth-child(1) {left:33.2356vw;}
+    .tumbler .left ul.Swing li:nth-child(2) {top:2.9326vw;}
+    .tumbler .left ul.Toddler li:nth-child(2) {left:18.5728vw;}
+    .tumbler .right ul li:first-child {font-size:1.9550vw;}
+    .tumbler .right ul.Tea li:nth-child(2) {top: 3.1281vw;}
+    .tumbler .right ul.Slo li:nth-child(2) {right: 9.7752vw;}
+    .tumbler .right ul.Beer li:nth-child(2) {bottom:2.9326vw;}
+    .tumbler .left ul.metro li:nth-child(3), .tumbler .left ul.Toddler li:nth-child(3), .tumbler .left ul.Toddler li:nth-child(4), .tumbler .right ul.Slo li:nth-child(3), .tumbler .right ul.Slo li:nth-child(4) {display: none;}
+    /* con2 */
+    .Cookware .inner {height: 90vw;}
+    .Cookware h2 {font-size:4.063rem;}
+    .Cookware strong {font-size: 1.875rem; top: 25vw;}
+    .Cookware .left {left:8.3089vw;top: 33vw;}
+    .Cookware .left li {margin-bottom: 2.9326vw;}
+    .Cookware .left li:first-child img {width: 24.4379vw;height: 24.4379vw;}
+    .Cookware .left li img {width: 24.4379vw;height: 24.4379vw;}
+    .Cookware .right {right:8.3089vw;top: 33vw;}
+    .Cookware .right li img {width: 24.4379vw; height:51.8084vw;}
+    .Cookware .bottom {display: block;left:38%; top: 33vw;}
+    .Cookware .bottom li {margin-bottom: 2.9326vw;}
+    .Cookware .bottom li img {width: 24.4379vw;height: 24.4379vw;}
+    /* con3 */
+
+    .SmallAppliance .inner {height: 53.7634vw;}
+    .SmallAppliance h2 {font-size:4.063rem;}
+    .SmallAppliance strong {font-size: 1.875rem;}
+    /* con4 */
+
+    #footer .inner {position: relative;height: 43.9883vw;}
+    #footer .family {
+        float: none;position: absolute;left: 50%;top: 29.3255vw;
+        transform: translateX(-50%);width: 19.5503vw;
+    }
+    #footer .family a {font-size:1.5640vw;}
+    #footer .family ul li a {font-size: 1.3685vw;}
+    #footer img {
+        position: absolute;left: 50%;transform: translateX(-50%);
+        top:9.7752vw;width: 19.5503vw;
+    }
+    #footer .info {
+        position: absolute;left: 50%;transform: translateX(-50%);
+        top: 22.4829vw;width: 24.4379vw; text-align: center;
+        width: 24.4379vw;
+    }
+    #footer .info p {font-size: 1.4663vw;}
+}
+
+@media screen and (max-width:767px ) {
+    #header h1 {left: 3rem;}
+    #header h1 + a {display: none;}
+    #bars {right: 3rem;}
+    #siteMap .gnb li:nth-child(1):hover ul{display: none;}
+    #siteMap .gnb li:nth-child(2):hover ul{display: none;}
+    #siteMap .gnb li:nth-child(3):hover ul{display: none;}
+    #siteMap .gnb li:nth-child(4):hover ul{display: none;}
+    #siteMap .gnb li:nth-child(5):hover ul{display: none;}
+    #siteMap .gnb li:nth-child(6):hover ul{display: none;}
+    /* header */
+
+    #visual .swiper-slide h2 {font-size:3rem}
+    /* visual */
+
+    .foodContainer .left h2 {font-size:3rem;margin-top: 6.375rem;}
+    .foodContainer .left strong {font-size: 1.5rem}
+    .foodContainer .right {width: 65.1890vw;top: 32%;right: 28%;}
+    .foodContainer .inner {height: 50rem;}
+    .foodContainer .bg {height: 50rem;}
+    /* con1 */
+
+    .tumbler h2 {font-size:3rem}
+    .tumbler strong {font-size: 1.5rem}
+    /* con2 */
+
+    .Cookware .inner {height: 143.4159vw;}
+    .Cookware h2 {font-size:3rem}
+    .Cookware strong  {font-size: 1.5rem}
+    .Cookware .left {left:15.6454vw}
+    .Cookware .left li {margin-bottom:3.9113vw;}
+    .Cookware .left li img {width:32.5945vw;height:32.5945vw;}
+    .Cookware .left li:first-child img {width:32.5945vw;height:32.5945vw;}
+    .Cookware .right {right:15.6454vw}
+    .Cookware .right li img {width: 32.5945vw;height:69.1004vw;}
+    .Cookware .bottom {display: flex;left:15.6454vw;top:105.6063vw;width:68.5789vw;}
+    .Cookware .bottom li img {width: 32.5945vw;height: 32.5945vw;}
+    /* con3 */
+
+    .SmallAppliance .inner {height:123.8592vw;}
+    .SmallAppliance h2 {font-size:3rem;}
+    .SmallAppliance strong {font-size: 1.5rem;}
+    .SmallAppliance .Appliance {display: block;height:93.8722vw;overflow: hidden;}
+    .SmallAppliance .Appliance dt {
+        width: 100.0000vw;height:6.5189vw;
+        writing-mode:horizontal-tb;transform: rotate(0deg);
+        font-size:2.8683vw; line-height: 6.5189vw;
+    }
+    .SmallAppliance .Appliance dt:nth-of-type(1), .SmallAppliance .Appliance dt:nth-of-type(2), .SmallAppliance .Appliance dt:nth-of-type(3), .SmallAppliance .Appliance dt:nth-of-type(4), .SmallAppliance .Appliance dt:nth-of-type(5), .SmallAppliance .Appliance dt:nth-of-type(6) {text-indent: 5.2151vw}
+    .SmallAppliance .Appliance dd {width:100.0000vw;height: 0;box-sizing: border-box;
+        overflow: hidden;}
+    .SmallAppliance .Appliance dd:first-of-type {width: 100.0000vw; height:54.7588vw;}
+    .SmallAppliance .Appliance dd img {width: 100.0000vw;height:54.7588vw;}
+    /* con4 */
+
+    #footer .inner {height: 52.1512vw;}
+    #footer .mall {display: block;position: absolute;left: 50%;top: 26.0756vw;}
+    #footer .mall a img {width: 13.0378vw;} 
+    #footer .bg p {padding-left: 0.6519vw;}
+    
+}
